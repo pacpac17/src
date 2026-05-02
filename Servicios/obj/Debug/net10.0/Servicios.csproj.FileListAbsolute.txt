@@ -1,0 +1,15 @@
+/home/pacman/repos/LautrivIa/src/Servicios/bin/Debug/net10.0/Servicios.deps.json
+/home/pacman/repos/LautrivIa/src/Servicios/bin/Debug/net10.0/Servicios.dll
+/home/pacman/repos/LautrivIa/src/Servicios/bin/Debug/net10.0/Servicios.pdb
+/home/pacman/repos/LautrivIa/src/Servicios/bin/Debug/net10.0/Domain.dll
+/home/pacman/repos/LautrivIa/src/Servicios/bin/Debug/net10.0/Domain.pdb
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.csproj.AssemblyReference.cache
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.GeneratedMSBuildEditorConfig.editorconfig
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.AssemblyInfoInputs.cache
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.AssemblyInfo.cs
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.csproj.CoreCompileInputs.cache
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.csproj.Up2Date
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.dll
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/refint/Servicios.dll
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.pdb
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/ref/Servicios.dll

@@ -1,0 +1,11 @@
+/home/pacman/repos/LautrivIa/src/Domain/bin/Debug/net10.0/Domain.deps.json
+/home/pacman/repos/LautrivIa/src/Domain/bin/Debug/net10.0/Domain.dll
+/home/pacman/repos/LautrivIa/src/Domain/bin/Debug/net10.0/Domain.pdb
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.csproj.CoreCompileInputs.cache
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.dll
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/refint/Domain.dll
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/Domain.pdb
+/home/pacman/repos/LautrivIa/src/Domain/obj/Debug/net10.0/ref/Domain.dll

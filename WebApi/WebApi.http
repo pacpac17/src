@@ -1,0 +1,29 @@
+@WebApi_HostAddress = http://localhost:5011
+@WordId = 00000000-0000-0000-0000-000000000000
+
+### Create a new word
+POST {{WebApi_HostAddress}}/api/words
+Content-Type: application/json
+
+{
+  "name": "Clean Architecture",
+  "meaning": "A software design approach that separates concerns into layers"
+}
+
+### Get all words
+GET {{WebApi_HostAddress}}/api/words
+
+### Get word by ID
+GET {{WebApi_HostAddress}}/api/words/{{WordId}}
+
+### Update a word
+PUT {{WebApi_HostAddress}}/api/words/{{WordId}}
+Content-Type: application/json
+
+{
+  "name": "Clean Architecture",
+  "meaning": "A software design pattern that emphasizes separation of concerns"
+}
+
+### Delete a word
+DELETE {{WebApi_HostAddress}}/api/words/{{WordId}}
