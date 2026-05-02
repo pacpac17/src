@@ -12,7 +12,7 @@ public class GetWordByIdUseCase
         _repository = repository;
     }
 
-    public async Task<Word?> ExecuteAsync(Guid id)
+    public async Task<Word?> ExecuteAsync(int id)
     {
         return await _repository.GetByIdAsync(id);
     }

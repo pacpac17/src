@@ -14,7 +14,7 @@ public class WordRepository : IRepository<Word>
         _context = context;
     }
 
-    public async Task<Word?> GetByIdAsync(Guid id)
+    public async Task<Word?> GetByIdAsync(int id)
     {
         return await _context.Words.FindAsync(id);
     }

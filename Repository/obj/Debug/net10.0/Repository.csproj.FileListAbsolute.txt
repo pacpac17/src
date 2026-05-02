@@ -13,3 +13,4 @@
 /home/pacman/repos/LautrivIa/src/Repository/obj/Debug/net10.0/refint/Repository.dll
 /home/pacman/repos/LautrivIa/src/Repository/obj/Debug/net10.0/Repository.pdb
 /home/pacman/repos/LautrivIa/src/Repository/obj/Debug/net10.0/ref/Repository.dll
+/home/pacman/repos/LautrivIa/src/Repository/obj/Debug/net10.0/Repository.sourcelink.json

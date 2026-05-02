@@ -13,7 +13,7 @@ public class UpdateWordUseCase
         _repository = repository;
     }
 
-    public async Task<Word> ExecuteAsync(Guid id, UpdateWordDto dto)
+    public async Task<Word> ExecuteAsync(int id, UpdateWordDto dto)
     {
         var word = await _repository.GetByIdAsync(id);
         if (word == null)

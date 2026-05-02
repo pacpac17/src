@@ -12,7 +12,7 @@ public class DeleteWordUseCase
         _repository = repository;
     }
 
-    public async Task ExecuteAsync(Guid id)
+    public async Task ExecuteAsync(int id)
     {
         var word = await _repository.GetByIdAsync(id);
         if (word == null)

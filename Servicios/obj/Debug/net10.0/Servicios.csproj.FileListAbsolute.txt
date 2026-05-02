@@ -13,3 +13,4 @@
 /home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/refint/Servicios.dll
 /home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.pdb
 /home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/ref/Servicios.dll
+/home/pacman/repos/LautrivIa/src/Servicios/obj/Debug/net10.0/Servicios.sourcelink.json

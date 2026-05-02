@@ -2,7 +2,7 @@ namespace Domain;
 
 public class Word
 {
-    public Guid Id { get; private set; }
+    public int Id { get; private set; }
     public string Name { get; private set; } = null!;
     public string Meaning { get; private set; } = null!;
 
@@ -13,7 +13,6 @@ public class Word
         ValidateName(name);
         ValidateMeaning(meaning);
 
-        Id = Guid.NewGuid();
         Name = name;
         Meaning = meaning;
     }

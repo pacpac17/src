@@ -29,7 +29,7 @@ public static class WordEndpoints
         .WithName("GetAllWords")
         .Produces<IReadOnlyList<Domain.Word>>();
 
-        group.MapGet("/{id:guid}", async (Guid id, GetWordByIdUseCase useCase) =>
+        group.MapGet("/{id:int}", async (int id, GetWordByIdUseCase useCase) =>
         {
             var word = await useCase.ExecuteAsync(id);
             return word is not null ? Results.Ok(word) : Results.NotFound();
@@ -38,7 +38,7 @@ public static class WordEndpoints
         .Produces<Domain.Word>()
         .Produces(StatusCodes.Status404NotFound);
 
-        group.MapPut("/{id:guid}", async (Guid id, UpdateWordDto dto, UpdateWordUseCase useCase) =>
+        group.MapPut("/{id:int}", async (int id, UpdateWordDto dto, UpdateWordUseCase useCase) =>
         {
             var word = await useCase.ExecuteAsync(id, dto);
             return Results.Ok(word);
@@ -48,7 +48,7 @@ public static class WordEndpoints
         .ProducesProblem(StatusCodes.Status404NotFound)
         .ProducesProblem(StatusCodes.Status400BadRequest);
 
-        group.MapDelete("/{id:guid}", async (Guid id, DeleteWordUseCase useCase) =>
+        group.MapDelete("/{id:int}", async (int id, DeleteWordUseCase useCase) =>
         {
             await useCase.ExecuteAsync(id);
             return Results.NoContent();
