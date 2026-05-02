@@ -1,3 +1,3 @@
 namespace Servicios.Dtos;
 
-public record CreateWordDto(string Name, string Meaning);
+public record CreateWordDto(string Name);

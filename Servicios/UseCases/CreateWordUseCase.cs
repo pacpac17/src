@@ -15,7 +15,7 @@ public class CreateWordUseCase
 
     public async Task<Word> ExecuteAsync(CreateWordDto dto)
     {
-        var word = new Word(dto.Name, dto.Meaning);
+        var word = new Word(dto.Name);
         await _repository.AddAsync(word);
         return word;
     }

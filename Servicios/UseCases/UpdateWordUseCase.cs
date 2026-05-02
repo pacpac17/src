@@ -20,7 +20,6 @@ public class UpdateWordUseCase
             throw new KeyNotFoundException("La palabra solicitada no existe.");
 
         word.UpdateName(dto.Name);
-        word.UpdateMeaning(dto.Meaning);
 
         await _repository.UpdateAsync(word);
         return word;
